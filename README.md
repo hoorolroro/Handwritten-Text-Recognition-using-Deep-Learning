@@ -12,3 +12,11 @@
 ● 좀 더 적절한 방향으로 w들을 변경해 나가는 것을 Back-propagation이라고 한다. 
 
 ## optimization
+● Back propagation을 통해 weights를 업데이트 시키는 방법  
+● 학습의 안정성 및 효율성을 위해 여러 optimization 기법들이 제안됨.  
+### 종류
+● Stochastic Gradient Decent (SGD) : 빠른 학습 가능, Epoch 마다 무작위 학습하면 효과 극대화 가능  
+● AdaGrad : 많이 갱신된 가중치는 학습률이 낮아짐  
+● RMSProp : AdaGrad의 단점 보완, Gredient가 무한정 커지는 것을 방지  
+● Momentum  : Gredient decent를 통해 이동하는 과정에 관성을 주는 것  
+● Adam : AdaGrad (RMSProp)와 Momentum을 융합한 기법
