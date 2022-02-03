@@ -1,1 +1,1 @@
-# Handwritten-Text-Recognition-using-Deep-Learning
+# 필기체 인식기 개발
