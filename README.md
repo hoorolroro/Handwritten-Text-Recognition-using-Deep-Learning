@@ -37,11 +37,12 @@ Dropout
 <img src="https://user-images.githubusercontent.com/98728682/152300682-5328fdfa-8d2e-406c-a96b-e25ea4b9b21a.png" width="550" height="300">  
 
 Weight decay  
-● Overfitting 된 weight들은 보통 그 크기가 매우 큼  
-● 따라서 그 weight들의 값을 너무 키우지 않는 방법으로 Overfitting을 방지  
+● Overfitting 된 weight들은 보통 그 크기가 매우 크다.  
+● weight들의 값을 너무 키우지 않는 방법으로 Overfitting을 방지한다.  
 
 Early Stopping  
 ● Train loss와 Eval loss graph 상에서 최적 포인트를 자동으로 찾는다.  
 ● 지정한 epoch까지 모두 학습하는게 아니라 최적 포인트에서 학습 과정을 미리 멈추는 기법이다.  
+
 <img src="https://user-images.githubusercontent.com/98728682/152306974-c0e2146a-3d20-4efa-85b0-7f97a5066c17.png" width="550" height="300">
 
