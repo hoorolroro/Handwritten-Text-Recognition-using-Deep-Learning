@@ -46,3 +46,5 @@ Early Stopping
 
 <img src="https://user-images.githubusercontent.com/98728682/152306974-c0e2146a-3d20-4efa-85b0-7f97a5066c17.png" width="550" height="300">
 
+## 평가  
+● 최적의 Hyper-parameters들을 대입하여, Test evaluation 값을 최대로 학습하는 목표를 잡는다.
