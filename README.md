@@ -25,8 +25,23 @@
 ● 모델이 학습(Train) 데이터에 '지나치게' 집중하면서 실제로 테스트(Test) 데이터에서 결과가 더 안좋게 나오는 현상  
 ● 학습 데이터로 학습하고 테스트 데이터에서 성능이 좋은 것을 Generalize(일반화)가 잘 되었다고 얘기함.  
 
-<img src="https://user-images.githubusercontent.com/98728682/152298306-7226ad2f-6bf3-4e66-95f8-a7c93872bc1e.png" width="550" height="300">
-극복 방법  
-● Dropout  
-● Weight Decay  
-● Early Stopping 등이 있다.
+<img src="https://user-images.githubusercontent.com/98728682/152298306-7226ad2f-6bf3-4e66-95f8-a7c93872bc1e.png" width="550" height="300">  
+
+### 극복 방법  
+
+Dropout  
+● 네트워크의 일부를 생략하는 것  
+● 학습 중 Forward 과정에서 일부 perceptron을 특정 확률(p)로 사용/미사용 함  
+● p값은 hyperparameter이며 일반적으로 0.5를 사용함.  
+● 평가 과정에서는 Dropout을 사용하지 않고 모든 perceptron을 사용  
+<img src="https://user-images.githubusercontent.com/98728682/152300682-5328fdfa-8d2e-406c-a96b-e25ea4b9b21a.png" width="550" height="300">  
+
+Weight decay  
+● Overfitting 된 weight들은 보통 그 크기가 매우 큼  
+● 따라서 그 weight들의 값을 너무 키우지 않는 방법으로 Overfitting을 방지  
+
+Early Stopping  
+● Train loss와 Eval loss graph 상에서 최적 포인트를 자동으로 찾는다.  
+● 지정한 epoch까지 모두 학습하는게 아니라 최적 포인트에서 학습 과정을 미리 멈추는 기법이다.  
+<img src="https://user-images.githubusercontent.com/98728682/152306974-c0e2146a-3d20-4efa-85b0-7f97a5066c17.png" width="550" height="300">
+
