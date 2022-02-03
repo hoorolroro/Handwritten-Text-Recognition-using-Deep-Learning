@@ -6,8 +6,7 @@
 ● 학습 데이터 수는 55,000장, 평가 데이터 수는 10,000장이다.
 ## Process of Learning
 <img src="https://user-images.githubusercontent.com/98728682/152274850-c6958ff9-f7cf-4b14-9252-0b0597d10f4b.png" width="420" height="250">  
-● 출력과 Loss는 w들의 결과로 나온 값이다.
-
+● 출력과 Loss는 w들의 결과로 나온 값이다.  
 
 ● Loss값을 바탕으로 각각의 w 하나 하나가 얼마나 영향을 주었는지 알 수 있다.
 
