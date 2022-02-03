@@ -20,3 +20,13 @@
 ● RMSProp : AdaGrad의 단점 보완, Gredient가 무한정 커지는 것을 방지  
 ● Momentum  : Gredient decent를 통해 이동하는 과정에 관성을 주는 것  
 ● Adam : AdaGrad (RMSProp)와 Momentum을 융합한 기법
+## Over-fitting
+● 딥러닝 모델이 겪는 중요한 문제점  
+● 모델이 학습(Train) 데이터에 '지나치게' 집중하면서 실제로 테스트(Test) 데이터에서 결과가 더 안좋게 나오는 현상  
+● 학습 데이터로 학습하고 테스트 데이터에서 성능이 좋은 것을 Generalize(일반화)가 잘 되었다고 얘기함.  
+
+<img src="https://user-images.githubusercontent.com/98728682/152298306-7226ad2f-6bf3-4e66-95f8-a7c93872bc1e.png" width="550" height="300">
+극복 방법  
+● Dropout  
+● Weight Decay  
+● Early Stopping 등이 있다.
