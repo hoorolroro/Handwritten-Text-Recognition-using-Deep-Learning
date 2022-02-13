@@ -47,9 +47,11 @@ Early Stopping
 <img src="https://user-images.githubusercontent.com/98728682/152306974-c0e2146a-3d20-4efa-85b0-7f97a5066c17.png" width="550" height="300">
 
 ## Hyper-parameter  
+
 |input_size|hidden_size|num_classes|batch_size|drop_prob|weight_decay_lambda|learning_rate|weight_initialization|best_accuracy|
 |---|---|---|---|---|---|---|---|---|---|
 |784|600|10|10|100|0.2|0.01|0.001|Xavier|94.52%|
-|784|500|10|15|150|0.2|0.01|0.001|He|94.52%|
+|784|500|10|15|150|0.2|0.01|0.001|He|94.52%|  
+
 ## 평가  
 ● 최적의 Hyper-parameters들을 대입하여, Test evaluation 값을 최대로 학습하는 목표를 잡는다.
