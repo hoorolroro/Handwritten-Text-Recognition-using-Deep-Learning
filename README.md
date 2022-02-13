@@ -48,9 +48,9 @@ Early Stopping
 
 ## Hyper-parameter  
 
-|input_size|hidden_size|num_classes|batch_size|drop_prob|weight_decay_lambda|learning_rate|weight_initialization|best_accuracy|
-|---|---|---|---|---|---|---|---|---|---|
-|784|600|10|10|100|0.2|0.01|0.001|Xavier|94.52%|
+|input_size|hidden_size|num_classes|batch_size|drop_prob|weight_decay_lambda|learning_rate|weight_initialization|best_accuracy|  
+|---|---|---|---|---|---|---|---|---|---|  
+|784|600|10|10|100|0.2|0.01|0.001|Xavier|94.52%|  
 |784|500|10|15|150|0.2|0.01|0.001|He|94.52%|  
 
 ## 평가  
