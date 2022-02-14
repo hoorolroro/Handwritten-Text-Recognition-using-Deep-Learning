@@ -57,4 +57,4 @@ Early Stopping
 ## 평가  
 ● 최적의 Hyper-parameters들을 대입하여, Test evaluation 값을 최대로 학습하는 목표를 잡는다.
 
-● 하이퍼파라미터의 hidden size와 learning rate를 줄이면서 더 좋은 정확도를 얻을 수 있었다.
+● 하이퍼파라미터의 hidden size와 learning rate를 적절히 줄여가면서, 더 좋은 정확도를 얻을 수 있었다.
